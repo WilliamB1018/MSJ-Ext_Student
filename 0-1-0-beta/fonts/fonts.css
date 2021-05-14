@@ -1,0 +1,35 @@
+/* Bowlby_One_SC */
+@font-face {
+    font-family: 'Bowlby_One_SC';
+    src: url('./Bowlby_One_SC/BowlbyOneSC-Regular.ttf');
+}
+
+/* Cinzel_Decorative */
+@font-face {
+    font-family: 'Cinzel_Decorative';
+    src: url('./Cinzel_Decorative/CinzelDecorative-Regular.ttf');
+}
+
+/* Concert_One */
+@font-face {
+    font-family: 'Concert_One';
+    src: url('./Concert_One/Concert_One-Regular.ttf');
+}
+
+/* Covered_By_Your_Grace */
+@font-face {
+    font-family: 'Covered_By_Your_Grace';
+    src: url('./Covered_By_Your_Grace/Covered_By_Your_Grace-Regular.ttf');
+}
+
+/* Kavivanar */
+@font-face {
+    font-family: 'Kavivanar';
+    src: url('./Kavivanar/Kavivanar-Regular.ttf');
+}
+
+/* Monoton */
+@font-face {
+    font-family: 'Monoton';
+    src: url('./Monoton/Monoton-Regular.ttf');
+}

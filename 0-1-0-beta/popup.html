@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MSJ Extension</title>
+	<script src="url-prepare.js"></script>
+    <link rel="stylesheet" href="popup.css">
+    
+	<script src="jquery.js"></script>
+    <script src="cookies_manager.js"></script>
+    <script src="popup.js"></script>
+    
+	<link rel="stylesheet" href="materialize.min.css">
+    <script src="materialize.min.js"></script>
+    
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col s12">
+            <ul class="tabs">
+                <li class="tab col s4">
+                    <a class="active" href="#test1">Plusportals Login</a>
+                </li>
+                <li id="backgroundTab" class="tab col s4 disabled">
+                    <a class="active" href="#test2">Appearance</a>
+                </li>
+            </ul>
+        </div>
+        <div id="test1" class="col s12">
+            <div id="userSignIn">
+                <p class="flow-text">Enter Your Plusportals Login Info</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="login_email" type="text" class="validate">
+                            <label id="email_check" for="login_email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="login_pwd" type="password" class="validate">
+                            <label id="pwd_check" for="login_pwd">Password</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <button id="save_btn" class="btn-large col s12 purple darken-2 waves-effect waves-light">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="test2" class="col s12">
+            <p class="flow-text">Appearance Options</p>
+			<div class="container">
+				<br>
+                <div class="input-field col s12">
+                <select id="time_format_select">
+                    <option value="" disabled>Select Time Format</option>
+                    <option value="12">12-Hour Format</option>
+                    <option value="24">24-Hour Format</option>
+                </select>
+                <label>Time Format</label>
+            </div>
+			<br>
+			<br>
+            <div class="row">
+                <button id="save_appearance" class="btn-large col s12 purple darken-2 waves-effect waves-light">Save</button>
+            </div>
+			</div>
+        </div>
+    </div>
+</body>
+
+</html>

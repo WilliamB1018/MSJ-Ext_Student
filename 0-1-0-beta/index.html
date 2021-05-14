@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>New Tab</title>
+	<script src="url-prepare.js"></script>
+	<script src="mousetrap.min.js"></script>
+	<link rel="stylesheet" href="./fonts/fonts.css">
+	<script src="cookies_manager.js"></script>
+	<link rel="stylesheet" href="materialize.min.css">
+	<script src="jquery.js"></script>
+	<script src="materialize.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<script src="newtab.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet"> </head>
+
+<body id="body"> <img src="" alt="" class="backgroundLoader">
+	<div id="page">
+		<div id="SLIDE_BG"></div>
+		<div id="dayCode"></div>
+		<div id="time"></div>
+		<div id="dateTime"></div>
+		<div id="container">
+			<div class="app-title">
+				<p>Weather</p>
+			</div>
+			<div class="notification"> </div>
+			<div class="weather-container">
+				<div class="weather-icon"> <img src="icons/unknown.png" alt=""> </div>
+				<div class="temperature-value">
+					<p>- °<span>F</span></p>
+				</div>
+				<div class="temperature-description">
+					<p> - </p>
+				</div>
+				<div class="location">
+					<p>-</p>
+				</div>
+			</div>
+		</div>
+		<div id="container2">
+			<div class="app-title">
+				<p>Time to MSJ From Current Location</p>
+			</div>
+			<div class="directions-container">
+				<div class="directions-icon"> <img src="icons/road.jpg" alt=""> </div>
+				<br>
+				<div class="location1">
+					<p>-</p>
+					<div class="directions-value">
+						<p>-</p>
+					</div>
+					<div class="directions-value2">
+						<p>(HH:MM:SS)</p>
+					</div>
+					<div class="directions-description">
+						<p>-</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="plusportalshw"> 
+			<p style="text-align: center;">
+				<iframe src="https://calendar.google.com/calendar/embed?src=0js3bqrg7t14rl7p48417aumqs%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> 
+			</p>
+		</div>
+		<div id="googleclassroomhw">
+			<p>GCHW</p>
+			<button id="authorize_button" style="display: none;">Authorize</button>
+			<button id="signout_button" style="display: none;">Sign Out</button> <pre id="content" style="white-space: pre-wrap;"></pre>
+			<pre id="content" style="white-space: pre-wrap;"></pre>
+		</div>
+		<div id="plusportalslink">
+			<button id="pp_link" class="btn-large col s12 purple darken-2 waves-effect waves-light">Go to Plusportals</button>
+		</div>
+		<div id="gmaillink">
+			<button id="gm_link" class="btn-large col s12 purple darken-2 waves-effect waves-light">Go to Gmail</button>
+		</div>
+		<div id="announcementsCodeBackground"></div>
+		<div id="announcements">
+			<div id="announcementsBtn" class="purple"> MSJ Calendar <span class="new badge" id="announcementsNewCount">0</span> </div>
+			<br>
+			<div class="row">
+				<div class="col s1"> <span id="announcementsClose">x</span> </div>
+				<div class="col s11" style="text-align: center; font-size:25px;">Stay informed of the latest MSJ Events</div>
+			</div>
+			<p style="text-align: center;">
+				<iframe src="https://calendar.google.com/calendar/embed?src=msjhomeworkextension%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="1000" height="600" frameborder="0" scrolling="no"></iframe>
+			</p>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+{
+	"name": "MSJ Updates",
+	"short_name": "MSJExt",
+	"author": "21WBrooks",
+	"description": "MSJ Updates replaces your New Tabs in Chrome with individualized updates about Homework, grades, upcoming events, and MSJ news.",
+	"version": "0.2.0",
+	"manifest_version": 2,
+	"offline_enabled": true,
+	"icons": {
+		"128": "logo-128.png",
+		"256": "logo.png"
+	},
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	},
+	"permissions": [
+		"background",
+		"browsingData",
+		"cookies",
+		"history",
+		"identity",
+		"notifications",
+		"bookmarks",
+		"*://*.google.com",
+		"topSites"
+	],
+	"browser_action": {
+		"default_title": "MSJ Updates",
+		"default_popup": "popup.html"
+	},
+	"web_accessible_resources": [
+		"logo.png"
+		"img/*"
+	],
+}
